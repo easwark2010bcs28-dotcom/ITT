@@ -1,0 +1,7 @@
+p=int(input("Enter principal amount:"))
+r=int(input("Enter rate of interest:"))
+t=int(input("Enter time period:"))
+if 1<=p<=100000 and 1<=r<=20 and 1<=t<=10:
+   print("Simple interest is %.1f"%((p*r*t)/100))
+else:
+   print("p should be between 1to100000,r should be between 1to20 and t should be between 1to10")
