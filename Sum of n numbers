@@ -1,0 +1,8 @@
+n=int(input("Enter a number:"))
+sum=0
+if 1<=n<=100000:
+   for i in range(n):
+      sum+=i+1
+else:
+   print("Enter valid number")
+print(sum)
