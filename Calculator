@@ -1,0 +1,13 @@
+c=input("Enter choice + , - , * , / :")
+a,b=[int(i) for i in input("Enter two numbers:").split(',')]
+match c:
+   case '+':
+      print("Addition:"%(a+b))
+   case '-':
+      print("Subtraction:"%(a-b))
+   case '*':
+      print("Multiplication:"%(a*b))
+   case '/':
+      print("Division:"%(a/b))
+   case _:
+      print("Invalid")
