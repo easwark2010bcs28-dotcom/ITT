@@ -1,0 +1,5 @@
+celsius=int(input("Enter celsius to convert into fahrenheit:"))
+if -50<= celsius <=100:
+   print("Temperature in fahrenheit is %.1f"%(celsius*(9/5)+32))
+else:
+   print("Celsius should be between -50 to 100")
