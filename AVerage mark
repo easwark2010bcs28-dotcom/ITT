@@ -1,0 +1,6 @@
+m1,m2,m3=[int(i) for i in input("Enter marks of 3 subjects:").split(',')]
+if 0<=m1<=100 and 0<=m2<=100 and 0<=m3<=100:
+   print("Total marks is %d"%(m1+m2+m3))
+   print("Average marks is %.1f"%((m1+m2+m3)/3))
+else:
+   print("Marks should be between 0 to 100")
