@@ -1,0 +1,5 @@
+s=int(input("Enter side length of the cube:"))
+if 1<=s<=50:
+   print("Volume of the cube is %d"%(s*s*s))
+else:
+   print("Side length should be between 1 to 50")
