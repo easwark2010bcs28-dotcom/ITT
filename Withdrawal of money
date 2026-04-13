@@ -1,0 +1,6 @@
+balance=int(input("Enter balance amount:"))
+withdraw=int(input("Enter withdrawal amount:"))
+if withdraw < balance and withdraw%100==0:
+   print("You have withdrawed %d"%withdraw)
+else:
+   print("Insuffcient balance")
