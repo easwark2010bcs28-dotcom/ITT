@@ -1,0 +1,9 @@
+salary=int(input("Enter LPA amount:"))
+if salary<=2.5:
+   print("No tax..")
+elif salary>2.5 and salary<=5:
+   print("5percent tax..Salary after applying tax %d LPA"%(salary-(0.5*salary)))
+elif salary>5 and salary<=10:
+  print("10percent tax..Salary after applying tax %d LPA"%(salary-(0.1*salary))) 
+else:
+  print("15percent tax..Salary after applying tax %d LPA"%(salary-(0.15*salary)))
