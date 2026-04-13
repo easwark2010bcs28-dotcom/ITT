@@ -1,0 +1,8 @@
+n=int(input("Enter a number:"))
+f=1
+if 1<=n<=12:
+   for i in range(n):
+      f=f*(i+1)
+   print(f)
+else:
+   print("Number should be between 1 to 12")
