@@ -1,0 +1,3 @@
+a,b,c=[int(i) for i in input("Enter three numbers:").split(',')]
+ans="a is greater" if a>b and a>c else "b is greater" if b>a and b>c else "c is greater"
+print(ans)
