@@ -1,0 +1,7 @@
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+if a>=0 and b <=1000:
+  
+   print("Sum of a and b is %d"%(a+b))
+else:
+   print("Invalid input. Enter a>=0 and b<=1000")
