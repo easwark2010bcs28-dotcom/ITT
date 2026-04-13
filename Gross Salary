@@ -1,0 +1,5 @@
+salary=int(input("Enter basic salary:"))
+if 5000<= salary <=50000:
+   print("Gross salary is %.1f"%((0.2*salary)+(0.1*salary)+salary))
+else:
+   print("Salary should be between 5000 to 50000")
