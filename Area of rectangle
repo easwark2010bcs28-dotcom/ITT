@@ -1,0 +1,5 @@
+length,breadth=[int(i) for i in input("Enter length and breadth:").split(',')]
+if length>=1 and breadth<=100:
+   print("Area of rectangle:%d"%(length*breadth))
+else:
+   print("Length should be >=1 and breadth should be <=100")
