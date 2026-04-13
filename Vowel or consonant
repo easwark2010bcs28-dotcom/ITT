@@ -1,0 +1,4 @@
+char=input("Enter a character:")
+vowels=('a','e','i','o','u','A','E','I','O','U')
+ans= "Character is Consonant" if char not in vowels else "Character is vowel"
+print(ans)
