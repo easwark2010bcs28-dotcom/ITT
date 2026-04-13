@@ -1,0 +1,7 @@
+price=int(input("Enter the marked price:"))
+if price>=5000:
+   print("Price after 20percent discount is %d"%(price-(0.2*price)))
+elif price>=3000:
+   print("Price after 10percent discount is %d"%(price-(0.1*price)))
+else:
+   print("Price without discount is %d"%price)
